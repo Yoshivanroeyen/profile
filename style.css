@@ -94,3 +94,27 @@ table p {
   padding-left:30px;
 
 }
+
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  margin:30px;
+
+}
+
+#sidebar li {
+  padding:20px;
+  margin:0;
+}
+
