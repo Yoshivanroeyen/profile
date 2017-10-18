@@ -10,24 +10,24 @@
 </head>
 <body>
   <div id="sidebar">
-      <ul>
-        <li>
-          <a href="#summary">
-            <i class="fa fa-info-circle fa-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#favorite-movies">
-            <i class="fa fa-file-video-o fa-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#footer">
-            <i class="fa fa-life-ring fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li>
+        <a href="#summary">
+          <i class="fa fa-info-circle fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#favorite-movies">
+          <i class="fa fa-file-video-o fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#footer">
+          <i class="fa fa-life-ring fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
 
   <div class="card container" id="summary">
     <img src="images/profile.png" alt="Yoshi profile picture" class="profile-circle">
@@ -88,23 +88,50 @@
 
 <div class="card container" id="footer">
 
-        <h2>About this page</h2>
-        <p>
-            This page has been coded during the
-            <a href="https://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        </p>
+  <h2>About this page</h2>
+  <p>
+    This page has been coded during the
+    <a href="https://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+  </p>
 
-        <ul class="list-inline">
-            <li><a href="">
-                <i class="fa fa-heart fa" aria-hidden="true"></i>
-            </a></li>
-            <li><a href="">
-                <i class="fa fa-reply" aria-hidden="true"></i>
-            </a></li>
-            <li><a href="">
-                <i class="fa fa-star" aria-hidden="true"></i>
-            </a></li>
-        </ul>
-    </div>
+  <ul class="list-inline">
+    <li><a href="">
+      <i class="fa fa-heart fa" aria-hidden="true"></i>
+    </a></li>
+    <li><a href="">
+      <i class="fa fa-reply" aria-hidden="true"></i>
+    </a></li>
+    <li><a href="">
+      <i class="fa fa-star" aria-hidden="true"></i>
+    </a></li>
+  </ul>
+</div>
+
+<div class="card container">
+ <form action="">
+<div>
+  <p>What meal would u like?</p>
+  <select>
+    <option value="meal1">Meal1</option>
+    <option value="meal2">Meal2</option>
+    <option value="meal3">Meal3</option>
+    <option value="Meal4">Meal4</option>
+    </select>
+  </div>
+<p>Do you have a car or a bike /both?</p>
+  <div>
+   <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+   <input type="checkbox" name="vehicle" value="Car" checked="checked"> I have a car<br>
+<p>Are you a woman or a man?</p>
+ </div>
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> I identify as a pancake and apache helicopter
+ <div>
+  <input type="submit" value="Submit">
+ </div>
+
+</form>
+</div>
 </body>
 </html>
